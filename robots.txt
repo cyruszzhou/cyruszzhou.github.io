@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Cyrus-Zhou2302.github.io/sitemap.xml
+Sitemap: https://cyruszzhou.github.io/sitemap.xml
