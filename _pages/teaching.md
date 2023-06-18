@@ -7,6 +7,10 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Some teaching experience of mine:
 
-Organize your courses by years, topics, or universities, however you like!
+<ul>   
+    <li> Winter 2023, CMSC 14200, Teaching Assistant
+    <li> Fall 2022, CMSC 15400, Teaching Assistant
+    <li> Spring 2022, Essay Tutor, Inspire! Education
+</ul>
