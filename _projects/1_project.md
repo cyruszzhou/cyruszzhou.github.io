@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: Retry Reliability
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/distributed.jpeg
 importance: 1
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
