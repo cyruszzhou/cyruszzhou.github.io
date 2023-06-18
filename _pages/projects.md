@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Research projects and Services
 nav: true
-nav_order: 2
+nav_order: 1
 display_categories: [research::ongoing, research::complete, service::ongoing, service::complete]
 horizontal: false
 ---
