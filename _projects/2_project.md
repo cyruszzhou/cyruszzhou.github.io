@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Cloud Security
-description: a project with a background image
+description: Classifer for deleting sensitive files on cloud file systems
 img: assets/img/cloud.jpeg
 importance: 2
-category: research
+category: research::ongoing
 ---
 
 Every project has a beautiful feature showcase page.

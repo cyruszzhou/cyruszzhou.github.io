@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Mixed Precision NNs
-description: Architectural Support for Mixed Precision Neural Networks
-img: assets/img/mixedp.jpeg
-importance: 3
-category: research::ongoing
+title: GenZ Forum
+description: a project with no image
+img: assets/img/forum.jpeg
+importance: 4
+category: service::complete
 ---
 
 Every project has a beautiful feature showcase page.

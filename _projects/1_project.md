@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Retry Reliability
-description: a project with a background image
+description: Analyzing, exposing, and tackling retry bugs in large-scale distributed systems
 img: assets/img/distributed.jpeg
 importance: 1
-category: research
+category: research::ongoing
 ---
 
 Every project has a beautiful feature showcase page.

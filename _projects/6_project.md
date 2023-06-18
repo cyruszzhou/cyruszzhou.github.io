@@ -1,10 +1,10 @@
 ---
 layout: page
 title: end-user programming
-description: a project with no image
+description: Helping users debug trigger-action programs in smart homes employing symbolic reasoning
 img: assets/img/iot.png
 importance: 4
-category: research
+category: research::complete
 ---
 
 Every project has a beautiful feature showcase page.

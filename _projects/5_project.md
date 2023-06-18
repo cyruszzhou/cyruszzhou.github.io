@@ -1,10 +1,10 @@
 ---
 layout: page
-title: nn dataflows
-description: a project with a background image
+title: neural network dataflows
+description: Speeding up neural networks using SIMD architecture on CPU by data scheduling
 img: assets/img/cpu.jpeg
 importance: 3
-category: research
+category: research::complete
 ---
 
 Every project has a beautiful feature showcase page.

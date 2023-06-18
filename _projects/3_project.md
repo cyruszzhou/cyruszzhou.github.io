@@ -1,11 +1,11 @@
 ---
 layout: page
 title: serverless idempotency
-description: a project that redirects to another website
+description: Analyzing, exposing, and tackling idempotency violations in serverless software systems
 img: assets/img/serverless.jpeg
 redirect: https://unsplash.com
 importance: 3
-category: research
+category: research::complete
 ---
 
 Every project has a beautiful feature showcase page.
