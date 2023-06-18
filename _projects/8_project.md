@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GenZ Forum
-description: a project with no image
+description: CreditEase Forum for customers' children
 img: assets/img/forum.jpeg
 importance: 4
 category: service::complete

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Course Design
-description: a project with no image
+description: Redesigning the project for CMSC 22000 Introduction to Software Development
 img: assets/img/chiventure.png
 importance: 4
 category: service::ongoing

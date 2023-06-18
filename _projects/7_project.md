@@ -1,7 +1,7 @@
 ---
 layout: page
 title: International CS REU
-description: a project with no image
+description: Coordinating summer research program for students from China Mainland and Taiwan
 img: assets/img/crerar.jpeg
 importance: 4
 category: service::ongoing
