@@ -1,84 +1,38 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{zhou2024yflows,
+author = {Zhou, Cyrus and Hassman, Zack and Xu, Ruize and Shah, Dhirpal and Li, Yanjing},
+title = {YFlows: Systematic Dataflow Exploration and Code
+Generation for Efficient Neural Network Inference
+using SIMD Architectures on CPUs},
+year = {2023},
+publisher = {Association for Computing Machinery},
+abstract = {We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.},
+journal = {In Submission},
+keywords = {Code Generation, SIMD Vectorization, CPU Optimization, Dataflow, Neural Network},
+preview = {yflows.png},
+selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{10.1145/3569506,
+author = {Zhang, Lefan and Zhou, Cyrus and Littman, Michael L. and Ur, Blase and Lu, Shan},
+title = {Helping Users Debug Trigger-Action Programs},
+year = {2023},
+issue_date = {December 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {6},
+number = {4},
+url = {https://doi.org/10.1145/3569506},
+doi = {10.1145/3569506},
+abstract = {Trigger-action programming (TAP) empowers a wide array of users to automate Internet of Things (IoT) devices. However, it can be challenging for users to create completely correct trigger-action programs (TAPs) on the first try, necessitating debugging. While TAP has received substantial research attention, TAP debugging has not. In this paper, we present the first empirical study of users' end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automations. To enable this study, we added TAP capabilities to an existing 3-D smart home simulator. Thirty remote participants spent a total of 84 hours debugging TAPs using this simulator. Without additional support, participants were often unable to fix buggy TAPs due to a series of obstacles we document. However, we also found that two novel tools we developed helped participants overcome many of these obstacles and more successfully debug TAPs. These tools collect either implicit or explicit feedback from users about automations that should or should not have happened in the past, using a SAT-solving-based algorithm we developed to automatically modify the TAPs to account for this feedback.},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+month = {jan},
+articleno = {196},
+numpages = {32},
+keywords = {smart environment, end-user debugging, IoT, Internet of Things, Trigger-action programming, symbolic reasoning, end-user programming, IFTTT},
+preview = {tapdebug.png},
+selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
