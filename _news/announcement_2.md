@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-At the <a href="https://gcasr.org/">10th Greater Chicago Area Systems Research Workshop</a> supporting Professor Yanjing Li!
+At the <a href="https://gcasr.org/">10th Greater Chicago Area Systems Research Workshop</a> supporting Professor Yanjing Li and our CS department!
