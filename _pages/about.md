@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Life shines brightest under death's shadow.
+subtitle:
 
 profile:
   align: right
