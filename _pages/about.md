@@ -23,7 +23,7 @@ I am a rising senior at the `University of Chicago`, majoring in `Computer Scien
 
 My research interest lies in `providing tool support for improving the security, reliability, and efficiency of large-scale and ubiquitous software systems`. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
 
-At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). I had also been glad to work for [Professor Haryadi Gunawi](http://people.cs.uchicago.edu/~haryadi/) and [Professor Borja Sotomajor](http://people.cs.uchicago.edu/~borja/) as a Teaching Assistant. I want to express my gratefulness to my PhD and undergraduate friends who have always supported me throughout my journey.
+At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). I had also been glad to work for [Professor Haryadi Gunawi](http://people.cs.uchicago.edu/~haryadi/) and [Professor Borja Sotomajor](http://people.cs.uchicago.edu/~borja/) as a Teaching Assistant on Computer Systems and Software Systems, respectively. I want to express my gratefulness to my PhD and undergraduate friends who have always supported me throughout my journey.
 
 <!-- Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
