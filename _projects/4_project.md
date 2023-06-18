@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mixed-precision Neural Networks
+title: Mixed-prec. Neural Network
 description: Architectural Support for Mixed Precision Neural Networks
 img: assets/img/mixedp.jpeg
 importance: 3
