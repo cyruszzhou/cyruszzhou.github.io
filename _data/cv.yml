@@ -81,7 +81,8 @@
       description:
       - title: Classifer for Deleting Sensitive Files on Google Drive
         contents:
-          - Current ongoing project.
+          - Current ongoing project, co-leading.
+          - Extended existing sensitive file classifier backend for better personalization.
       - title: User-centric Development and Debugging of Trigger-Action Programs
         contents:
           - This project aimed to research the first empirical study of users' end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automation. The final paper was accepted (with minor or no modification) by UbiComp/IMWUT.
@@ -104,7 +105,7 @@
   contents:
     - title: Software Reliability & Efficiency.
       items: 
-        - Using architectural insights to improve reliability & efficiency of large-scale and ubiquitous software systems.
+        - Leveraging architectural insights to improve reliability & efficiency of large-scale and ubiquitous software systems.
         - Program analysis for bug detection and fixing.
     - title: User-centric Computing
       items:
