@@ -66,7 +66,9 @@
       description:
         - title: Architectural Support for Mixed Precision Neural Networks
           contents:
-          - Current ongoing project.
+          - Current ongoing project, leading.
+          - Added Heterogenous SIMD support (with precision information stored in the metadata register) to the GEM5 simulator.
+          - Replicated existing mixed-precision schemes on SIMD architecture.
         - title: Data Scheduling for Neural Networks on CPUs using SIMD Architecture
           contents:
           - We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.
@@ -78,7 +80,7 @@
       description:
       - title: Classifer for Deleting Sensitive Files on Google Drive
         contents:
-          - Current ongoing project
+          - Current ongoing project.
       - title: User-centric Development and Debugging of Trigger-Action Programs
         contents:
           - This project aimed to research the first empirical study of users' end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automation. The final paper was accepted (with minor or no modification) by UbiComp/IMWUT.
