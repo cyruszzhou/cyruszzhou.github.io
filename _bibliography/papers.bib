@@ -14,6 +14,35 @@ preview = {yflows.png},
 selected={true}
 }
 
+@article{pan2024understanding,
+author = {Pan, Haochen and Zhou, Zikai and Lu, Shan and Musuvathi, Madan and Nath, Suman},
+title = {Understanding and Detecting Idempotency
+Violations in Serverless Applications},
+year = {2023},
+publisher = {Association for Computing Machinery},
+abstract = {Serverless applications are composed of event-
+triggered serverless functions, which may be invoked multiple
+times per incoming event, leading to duplicated notifications,
+data inconsistency, and workflow interruptions. To prevent these
+undesired effects, application developers must ensure the event
+processing workflow is idempotent. However, this design require-
+ment is often overlooked by developers, who are also in lack
+of tools to pinpoint idempotency violations – code regions that
+violate the design intent if retried.
+This paper first illustrates how serverless frameworks con-
+tribute to idempotency violations, then examine the root cause,
+symptoms, and remedies of 248 violations found in 128 Azure
+and AWS serverless applications. Based on the findings, we built
+static checkers to detect common violation patterns and a testing
+framework to trigger and observe idempotency violations. Our
+research aims to raise awareness of serverless idempotency vio-
+lations and demonstrate that most of them can be systematically
+detected and prevented},
+journal = {In Submission},
+keywords = {Cloud Computing, Debugging, Serverless Systems, Idempotency, Distributed Systems},
+preview = {serverless.jpeg},
+selected={true}
+}
 
 @article{10.1145/3569506,
 author = {Zhang, Lefan and Zhou, Cyrus and Littman, Michael L. and Ur, Blase and Lu, Shan},
