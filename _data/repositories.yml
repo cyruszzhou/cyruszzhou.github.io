@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - cyruszzhou
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - cyruszzhou/tempura
+  - cyruszzhou/coconut
+  - YLab-UChicago/YFlows
+  - AngelZouYifan/DiverInterface2022
+  - haochenpan/serverlessql2
+  - uchicago-cs/chiventure
+  - https://github.com/UChicagoSUPERgroup/tapdebug
