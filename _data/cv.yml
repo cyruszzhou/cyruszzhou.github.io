@@ -119,10 +119,11 @@
   type: list
   contents:
     - <u>Programming Languages:</u> C/C++, C#, Python, Java, Javascript, ARM/x86/RISCV Assembly/Intrinsics, R, SQL, Swift - and HTML and CSS, if they count as programming languages :)- etc.
-    - <u>Tools:</u> Unity, GEM5, CodeQL, Jacoco, AWS, Azure, Google Cloud, GCC, Clang, TVM, Arm C++ Compiler, Intel C++ Compiler, Fruitloops, Vocaloid, Docker, Venv, GIT, SVN, Jacoco, etc.
+    - <u>Tools:</u> Unity, GEM5, CodeQL, Jacoco, AWS, Azure, Google Cloud, GCC, Clang, TVM, Arm C++ Compiler, Intel C++ Compiler, Fruitloops, Vocaloid, Docker, Venv, GIT, SVN etc.
     - <u>Libraries/Packages:</u> Pandas, Numpy, Scipy, Matplotlib, Seaborn, Tensorflow, PyTorch, Keras, OpenCV, etc.
     - <u>Frameworks/Programming Paradigms:</u> AWS Lambda, Azure Serverless, Django, Spring Frameworks, React, Angular, Swift UI, etc.
     - <u>Operating Systems:</u> MacOS, Linux, Windows, by preference.
+    - <u>Non-technical Skills:</u> User Studies, Team Collaboration (and Leadership when needed), Event Organization, Writing-at-Large, etc.
 
 
 - title: Other Interests
