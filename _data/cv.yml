@@ -115,6 +115,13 @@
         - End-user Programming for bridging natural language logic with software logic.
         - Interactive software systems that ensure security and privacy.
 
+- title: Skills
+  type: list
+  contents:
+    - <u>Programming Languages:</u> C/C++, C#, Python, Java, Javascript, ARM/x86/RISCV Assembly/Intrinsics, R, SQL - and HTML and CSS, if they count as programming languages :)
+    - <u>Tools:</u> Unity, GEM5, CodeQL, Fruitloops, Vocaloid
+
+
 - title: Other Interests
   type: list
   contents:
