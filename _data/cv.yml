@@ -119,7 +119,7 @@
   type: list
   contents:
     - <u>Programming Languages:</u> C/C++, C#, Python, Java, Javascript, ARM/x86/RISCV Assembly/Intrinsics, R, SQL - and HTML and CSS, if they count as programming languages :)
-    - <u>Tools:</u> Unity, GEM5, CodeQL, Fruitloops, Vocaloid
+    - <u>Tools:</u> Unity, GEM5, CodeQL, Jacoco, AWS, Azure, Google Cloud, GCC, Clang, TVM, Arm C++ Compiler, Intel C++ Compiler, Fruitloops, Vocaloid
 
 
 - title: Other Interests
