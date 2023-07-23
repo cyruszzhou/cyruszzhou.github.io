@@ -106,9 +106,12 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Architectural Support and Cross-Layer Integration for Artificial Intelligence.
+      items: 
+        - Leveraging low-level insights to benefit artificial intelligence systems and users.
     - title: Software Reliability & Efficiency.
       items: 
-        - Leveraging architectural insights to improve reliability & efficiency of large-scale and ubiquitous software systems.
+        - Improving reliability & efficiency of large-scale and ubiquitous software systems.
         - Program analysis for bug detection and fixing.
     - title: User-centric Computing
       items:
