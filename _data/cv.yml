@@ -83,8 +83,11 @@
       description:
       - title: Classifer for Deleting Sensitive Files on Google Drive.
         contents:
-          - Current ongoing project, co-leading.
-          - Extended existing sensitive file classifier backend for better personalization.
+        - Currently co-leading an ongoing project
+        - Enhanced the existing sensitive file classifier by integrating multiclass classification, reinforcement learning, and transfer learning for improved recommendation personalization
+        - Developed a new rule-based classifier using ILP and formal reasoning techniques
+        - Devised and conducted user studies for training classifiers more effectively
+        - Deployed preexisting codebases for efficient classification of file sensitivity and making group deletion recommendations
       - title: User-centric Development and Debugging of Trigger-Action Programs.
         contents:
           - This project aimed to research the first empirical study of users' end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automation. The final paper was accepted (with minor or no modification) by UbiComp/IMWUT.
