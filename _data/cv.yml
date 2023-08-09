@@ -83,7 +83,6 @@
       description:
       - title: Classifer for Deleting Sensitive Files on Google Drive.
         contents:
-        - Currently leading an ongoing project
         - Enhanced the existing sensitive file classifier by integrating multiclass classification, reinforcement learning, and transfer learning for improved recommendation personalization
         - Developed a new rule-based classifier using ILP and formal reasoning techniques
         - Devised and conducted user studies for training classifiers more effectively
