@@ -10,7 +10,8 @@ nav_order: 5
 Some teaching experience of mine:
 
 <ul>   
-    <li> Winter 2023, CMSC 14200, Teaching Assistant
-    <li> Fall 2022, CMSC 15400, Teaching Assistant
+    <li> Fall 2023, CMSC 14400, Systems Programming II, Teaching Assistant
+    <li> Winter 2023, CMSC 14200, Introduction to Computer Science II, Teaching Assistant
+    <li> Fall 2022, CMSC 15400, Introduction to Computer Systems, Teaching Assistant
     <li> Spring 2022, Essay Tutor, Inspire! Education
 </ul>
