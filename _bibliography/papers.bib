@@ -1,8 +1,32 @@
 ---
 ---
 
+@article{zhou2024codesign,
+author = {Zhou, Cyrus and Richard, Vaughn and Hassman, Zack and  DiBrino, Michael and Li, Yanjing},
+title = {Hardware-software Co-design for Serving Mixed Precision Neural Networks on CPUs},
+year = {2024},
+publisher = {Association for Computing Machinery},
+abstract = {Co-designing CPU SIMD architectures, ultra-low precision mixed precision neural networks training algorithms, compiler, and ISA for efficient and accurate model deployment at the edge},
+journal = {ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), In Plan to Submit},
+keywords = {Hardware-software Co-design, Mixed Precision Neural Networks, Compiler, SIMD Vectorization, CPU Optimization},
+preview = {hwswcodesign.png},
+selected={true}
+}
 
-
+@article{zhou2024yflows,
+author = {Zhou, Cyrus and Hassman, Zack and Xu, Ruize and Shah, Dhirpal and Li, Yanjing},
+title = {YFlows: Systematic Dataflow Exploration and Code
+Generation for Efficient Neural Network Inference
+using SIMD Architectures on CPUs},
+year = {2024},
+url = {https://arxiv.org/abs/2310.00574v2},
+publisher = {Association for Computing Machinery},
+abstract = {We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.},
+journal = {IEEE/ACM International Symposium on Code Generation and Optimization (CGO) - Under Revision},
+keywords = {Code Generation, SIMD Vectorization, CPU Optimization, Dataflow, Neural Network},
+preview = {yflows.png},
+selected={true}
+}
 
 @article{pan2024understanding,
 author = {Pan, Haochen and Zhou, Cyrus and Lu, Shan and Musuvathi, Madan and Nath, Suman},
