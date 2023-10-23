@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>John Crerar Library 283</p>
+    <p>John Crerar Library 308</p>
     <p>5730 S Ellis Ave</p>
     <p>Chicago, IL 60637</p>
 
@@ -21,9 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am a rising senior at the `University of Chicago`, majoring in `Computer Science`. 
 
-My current research interest lies in `hardware-software co-design and compiler optimization`. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
+My current research interest lies in `hardware-software co-design and compiler optimization`, especially for deep learning systems. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
 
-At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). I had also been glad to work for [Professor Haryadi Gunawi](http://people.cs.uchicago.edu/~haryadi/) and [Professor Borja Sotomajor](http://people.cs.uchicago.edu/~borja/) as a Teaching Assistant on Computer Systems and Software Systems, respectively. I want to express my gratefulness to my PhD and undergraduate friends who have always supported me throughout my journey.
+At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). I had also been glad to work for [Professor Haryadi Gunawi](http://people.cs.uchicago.edu/~haryadi/) and [Professor Borja Sotomajor](http://people.cs.uchicago.edu/~borja/) as a Teaching Assistant on Computer Systems and Software Systems, respectively. I want to express my gratefulness to my graduate and undergraduate friends who have always supported me throughout my journey.
 
 <h2><a style="color: inherit;">visitor traffics</a></h2>
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Uh7DK4eB_0_NuW2yFLoLGxh7bKUnIEhpgvJj7qXedG4"></script>
