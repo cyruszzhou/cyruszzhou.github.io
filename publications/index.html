@@ -164,7 +164,20 @@
         <div class="author">
         
 
-        Cyrus Zhou, Vaughn Richard, Zack Hassman, Michael DiBrino, and Yanjing Li</div>
+        Cyrus Zhou, Vaughn Richard, Zack Hassman, Pedro Savarese, Michael Maire, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Michael DiBrino, Yanjing Li' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
