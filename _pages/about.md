@@ -26,7 +26,7 @@ My current research interest lies in `hardware-software co-design and compiler o
 At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). 
 
 
-I had also been glad to work for [Professor Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), [Professor Ben Zhao](https://people.cs.uchicago.edu/~ravenben/), [Professor Haryadi Gunawi](http://people.cs.uchicago.edu/~haryadi/) and [Professor Borja Sotomajor](http://people.cs.uchicago.edu/~borja/) as a Teaching Assistant on Computer Systems and Software Systems, respectively. I want to express my gratefulness to my graduate and undergraduate friends who have always supported me throughout my journey.
+<!-- I had also been glad to work for [Professor Junchen Jiang](https://people.cs.uchicago.edu/~junchenj/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), [Professor Ben Zhao](https://people.cs.uchicago.edu/~ravenben/), [Professor Haryadi Gunawi](http://people.cs.uchicago.edu/~haryadi/) and [Professor Borja Sotomajor](http://people.cs.uchicago.edu/~borja/) as a Teaching Assistant on Computer Systems and Software Systems, respectively. -->
 
 <!-- <h2><a style="color: inherit;">visitor traffics</a></h2>
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Uh7DK4eB_0_NuW2yFLoLGxh7bKUnIEhpgvJj7qXedG4"></script> -->
