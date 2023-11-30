@@ -1,26 +1,42 @@
 ---
 ---
 
+@article{stoica2024codesign,
+author = {Alexandru Stoica, Bogdan and Sethi, Utsav and Su, Yiming and Zhou, Cyrus and Lu, Shan and Mace, Jonathan and Musuvathi, Madan and Nath, Suman},
+title = {Hardware-software Co-design for Serving Mixed Precision Neural Networks on CPUs},
+year = {2023},
+publisher = {Association for Computing Machinery},
+abstract = {Software developers have long made use of retry - the re-execution of a task on failure - to enable resilient and robust applications. Yet, despite its commonality and long history,broken or unsafe retry continues to be a source of severe, sometimes catastrophic problems. To better understand why retry continues to be problematic, we analyze 58 retry-related issues in 9 modern software applications, and identify multiple root cause categories, which affect various modes of retry, including implicit or asynchronous modes such as task re-enqueueing.
+
+Guided by this study we propose a novel suite of static and dynamic techniques to detect various classes of retry problems. In particular, we find that thoughtful repurposing of unit tests can, along with fault injection, expose retry problems in software; and augmented by classical static analysis and LLM-aided code labeling, can detect a broad set of retry issues across multiple retry modes.
+
+We hope that this work will contribute to the continued improvement of retry in software, enabling more resilient applications.},
+keywords = {Distributed Systems, Reliability, Debugging},
+preview = {hwswcodesign.png},
+selected={true}
+}
+
 @article{zhou2024codesign,
 author = {Zhou, Cyrus and Richard, Vaughn and Hassman, Zack and Savarese, Pedro and Maire, Michael and  DiBrino, Michael and Li, Yanjing},
 title = {Hardware-software Co-design for Serving Mixed Precision Neural Networks on CPUs},
-year = {2024},
+year = {2023},
 publisher = {Association for Computing Machinery},
 abstract = {Neural networks have become pervasive and are revolutionizing countless fields and applications. As such, there is a escalating demand for more efficient ways to run deep neural networks (DNNs). Recent advancements in quantization and mixed-precision techniques for neural networks offer substantial potential. Notably, research has demonstrated ultra-low precision neural networks, wherein each parameter uses only 1 to 4 bits, are able to achieve state-of-the-art accuracies when precision is mixed at fine granularities (e.g., per channel, per parameter) and the training methodologies are tailored accordingly. However, hardware support for such neural networks remain largely lacking. Existing hardware architectures, training toolsets, and inference frameworks are yet to fully embrace the support required for these ultra-low precision models, especially with fine-grained precision-mixing. Specifically, current architectures lack support for data-level precision heterogeneity, training toolsets do not account for the constraints during deployment, and there is no framework that allows for optimized serving. Diverging from conventional unidirectional methodologies, our research introduces a holistic hardware-software co-design approach, establishing a true symbiotic feedback mechanism between hardware design, training, and inference In this paper, we present and evaluate three integrated solutions, each combining unique hardware adaptations, ISA extensions, training algorithms, and inference frameworks, using CPUs as a proof-of-concept.},
-journal = {ACM International Symposium on Computer Architecture (ISCA), In Plan to Submit},
+journal = {ACM International Symposium on Computer Architecture (ISCA), Under Review},
 keywords = {Hardware-software Co-design, Mixed Precision Neural Networks, Compiler, SIMD Vectorization, CPU Optimization},
 preview = {hwswcodesign.png},
+url = {https://arxiv.org/abs/2311.14114},
 selected={true}
 }
 
 @article{zhou2024yflows,
 author = {Zhou, Cyrus and Hassman, Zack and Xu, Ruize and Shah, Dhirpal and Li, Yanjing},
 title = {SIMD Dataflow Co-optimization for Efficient Neural Networks Inferences on CPUs},
-year = {2024},
-url = {https://arxiv.org/abs/2310.00574v2},
+year = {2023},
+url = {https://arxiv.org/abs/2310.00574},
 publisher = {Association for Computing Machinery},
 abstract = {We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.},
-journal = {33rd ACM SIGPLAN International Conference on Compiler Construction (CC '24) - Under Review},
+journal = {33rd ACM SIGPLAN International Conference on Compiler Construction (CC '24) , Under Review},
 keywords = {Code Generation, SIMD Vectorization, CPU Optimization, Dataflow, Neural Network},
 preview = {yflows.png},
 selected={true}
