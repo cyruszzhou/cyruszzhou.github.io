@@ -23,7 +23,7 @@ I am a rising senior at the `University of Chicago`, majoring in `Computer Scien
 
 My current research interest lies in `hardware-software co-design and compiler-level optimization for emerging workloads`, especially for `deep learning` tasks. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
 
-I am from [Ningbo, China](https://en.wikipedia.org/wiki/Ningbo), where I spent my childhood and completed my schooling, encompassing elementary through [high school](https://en.wikipedia.org/wiki/Xiaoshi_Middle_School).
+I grew up in [Ningbo, China](https://en.wikipedia.org/wiki/Ningbo), where I spent my childhood and completed my schooling, encompassing elementary through [high school](https://en.wikipedia.org/wiki/Xiaoshi_Middle_School).
 
 At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). 
 
