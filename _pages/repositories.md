@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: Opensourcing some repositories that may be helpful.
 nav: true
-nav_order: -1
+nav_order: 5
 ---
 
 <!-- ## GitHub users
