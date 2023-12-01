@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a rising senior at the `University of Chicago`, majoring in `Computer Science`. 
 
-My current research interest lies in `hardware-software co-design and compiler optimization`, especially for deep learning systems. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
+My current research interest lies in `hardware-software co-design and compiler-level optimization for emerging workloads`, especially for `deep learning` tasks. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
 
 At UChicago, I have been fortunate to be advised by [Professor Shan Lu](http://people.cs.uchicago.edu/~shanlu/), [Professor Yanjing Li](http://people.cs.uchicago.edu/~yanjingl/), and [Professor Blase Ur](https://www.blaseur.com/). 
 
