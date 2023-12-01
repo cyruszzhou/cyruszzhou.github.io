@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a rising senior at the `University of Chicago`, majoring in `Computer Science`. 
+I am a fourth-year student at the `University of Chicago`, majoring in `Computer Science`. 
 
 My current research interest lies in `hardware-software co-design and compiler-level optimization for emerging workloads`, especially for `deep learning` tasks. I do weightlifting and drink (a lot of) coffee. I enjoy philosophy and literature.
 
