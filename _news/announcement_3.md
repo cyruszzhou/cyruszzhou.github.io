@@ -5,4 +5,3 @@ inline: true
 related_posts: false
 ---
 
-Presented our work on neural network dataflows at the <a href="https://ccrf.uchicago.edu/uchicagoresearchsymposium">Undergraduate Research Symposium </a> @UChicago!
