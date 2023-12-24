@@ -5,13 +5,13 @@
 author = {Alexandru Stoica, Bogdan and Sethi, Utsav and Su, Yiming and Zhou, Cyrus and Lu, Shan and Mace, Jonathan and Musuvathi, Madan and Nath, Suman},
 title = {If At First You Don’t Succeed, Try, Try, Again...? Insights and Tooling for Detecting Retry Logic Bugs in Distributed Systems},
 year = {2023},
-publisher = {In Preparation (Withdrawn from OSDI)},
+publisher = {Usenix},
 abstract = {Software developers have long made use of retry - the re-execution of a task on failure - to enable resilient and robust applications. Yet, despite its commonality and long history,broken or unsafe retry continues to be a source of severe, sometimes catastrophic problems. To better understand why retry continues to be problematic, we analyze 58 retry-related issues in 9 modern software applications, and identify multiple root cause categories, which affect various modes of retry, including implicit or asynchronous modes such as task re-enqueueing.
 
 Guided by this study we propose a novel suite of static and dynamic techniques to detect various classes of retry problems. In particular, we find that thoughtful repurposing of unit tests can, along with fault injection, expose retry problems in software; and augmented by classical static analysis and LLM-aided code labeling, can detect a broad set of retry issues across multiple retry modes.
 
 We hope that this work will contribute to the continued improvement of retry in software, enabling more resilient applications.},
-journal = {18th USENIX Symposium on Operating Systems Design and Implementation, Under Review},
+journal = {In Preparation (Withdrawn from OSDI)},
 keywords = {Distributed Systems, Reliability, Debugging},
 preview = {retry.jpg},
 selected={true}
@@ -37,7 +37,7 @@ year = {2023},
 url = {https://arxiv.org/abs/2310.00574},
 publisher = {Association for Computing Machinery},
 abstract = {We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.},
-journal = {33rd ACM SIGPLAN International Conference on Compiler Construction (CC '24)},
+journal = {33rd ACM SIGPLAN International Conference on Compiler Construction (CC '24) , Under Review},
 keywords = {Code Generation, SIMD Vectorization, CPU Optimization, Dataflow, Neural Network},
 preview = {yflows.png},
 selected={true}
