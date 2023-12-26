@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications and presubmissions
+title: papers
 description: 
 years: [2024,2023]
 nav: true
