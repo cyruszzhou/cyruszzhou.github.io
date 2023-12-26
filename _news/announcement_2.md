@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are building a compiler for neuroscience simulation / computational neuroscience. Hit me up if you are interested in joining the project.
+We are building `a compiler for neuroscience simulation / computational neuroscience`. Hit me up if you are interested in joining the project.

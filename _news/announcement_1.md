@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-YFlows found its home at ACM SIGPLAN 2024 International Conference on Compiler Construction (CC).
+YFlows found its home at `ACM SIGPLAN 2024 International Conference on Compiler Construction (CC)`.
