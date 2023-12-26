@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/assets/pdf/CV-Cyrus-Zhou.pdf
+permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
