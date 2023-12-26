@@ -213,7 +213,186 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
           
 
           <!-- Selected papers -->
+          <h2><a href="/publications/" style="color: inherit;">selected publications</a></h2>
+          <div class="publications">
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/hwswcodesign-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/hwswcodesign-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/hwswcodesign-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/hwswcodesign.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="hwswcodesign.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="zhou2024codesign" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">SySMOL: A Hardware-software Co-design Framework for Ultra-Low and Fine-Grained Mixed-Precision Neural Networks</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Cyrus Zhou, Vaughn Richard, Pedro Savarese, Zack Hassman, Michael Maire, Michael DiBrino, and Yanjing Li</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>ACM International Symposium on Computer Architecture (ISCA), Under Review</em>, 2023
+        </div>
+        <div class="periodical">
           
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent advancements in quantization and mixed-precision techniques offer significant promise for improving the run-time and energy efficiency of neural networks. In this work, we further showed that neural networks, wherein individual parameters or activations can take on different precisions ranging between 1 and 4 bits, can achieve accuracies comparable to or exceeding the full-precision counterparts. However, the deployment of such networks poses numerous challenges, stemming from the necessity to manage and control the compute/communication/storage requirements associated with these extremely fine-grained mixed precisions for each piece of data. There is a lack of existing efficient hardware and system-level support tailored to these unique and challenging requirements. Our research introduces the first novel holistic hardware-software co-design approach for these networks, which enables a continuous feedback loop between hardware design, training, and inference to facilitate systematic design exploration. As a proof-of-concept, we illustrate this co-design approach by designing new, configurable CPU SIMD architectures tailored for these networks, tightly integrating the architecture with new system-aware training and inference techniques. We perform systematic design space exploration using this framework to analyze various tradeoffs. The design for mixed-precision networks that achieves optimized tradeoffs corresponds to an architecture that supports 1, 2, and 4-bit fixed-point operations with four configurable precision patterns, when coupled with system-aware training and inference optimization – networks trained for this design achieve accuracies that closely match full-precision accuracies, while compressing and improving run-time efficiency of the neural networks drastically by 10-20x, compared to full-precision networks. Our pioneer research addresses the challenges posed by deploying ultra-low, fine-grained mixed-precision neural networks with varied precision requirements, and also reveals several key insights to guide the design of future architectures and neural networks in the low-precision regime, marking a significant step towards enabling ultra-efficient and compact neural networks.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/yflows-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/yflows-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/yflows-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/yflows.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="yflows.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="zhou2024yflows" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">SIMD Dataflow Co-optimization for Efficient Neural Networks Inferences on CPUs</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Cyrus Zhou, Zack Hassman, Ruize Xu, Dhirpal Shah, and Yanjing Li</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>33rd ACM SIGPLAN International Conference on Compiler Construction (CC ’24) (To Appear)</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/tapdebug-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/tapdebug-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/tapdebug-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/tapdebug.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="tapdebug.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="10.1145/3569506" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Helping Users Debug Trigger-Action Programs</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Lefan Zhang, Cyrus Zhou, Michael L. Littman, Blase Ur, and Shan Lu</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.</em>, Jan 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3569506"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3569506" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Trigger-action programming (TAP) empowers a wide array of users to automate Internet of Things (IoT) devices. However, it can be challenging for users to create completely correct trigger-action programs (TAPs) on the first try, necessitating debugging. While TAP has received substantial research attention, TAP debugging has not. In this paper, we present the first empirical study of users’ end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automations. To enable this study, we added TAP capabilities to an existing 3-D smart home simulator. Thirty remote participants spent a total of 84 hours debugging TAPs using this simulator. Without additional support, participants were often unable to fix buggy TAPs due to a series of obstacles we document. However, we also found that two novel tools we developed helped participants overcome many of these obstacles and more successfully debug TAPs. These tools collect either implicit or explicit feedback from users about automations that should or should not have happened in the past, using a SAT-solving-based algorithm we developed to automatically modify the TAPs to account for this feedback.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+          </div>
+
 
           <!-- Social -->
             <div class="social">
