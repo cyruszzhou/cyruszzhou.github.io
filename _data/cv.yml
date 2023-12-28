@@ -41,7 +41,7 @@
       items: Tensorflow, PyTorch, Keras, TVM
     - title: Data Analysis Tools
       items: Pandas, Numpy, Scipy, Matplotlib, Seaborn
-    - title: Other
+    - title: Development Tools
       items: Django, React, Angular, Spring Frameworks, AWS, Azure, Google Cloud, Docker, Venv, GIT, SVN
 
     - title: Operating System
