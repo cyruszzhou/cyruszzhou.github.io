@@ -17,11 +17,11 @@
   type: nested_list
   contents:
     - title: Compiler-level Optimization for Domain-specific Acceleration
-      items: 
+      items: Current compiler optimization methods for general-purpose computing may not be able to bring out the best performance on domain-specific workloads. I strive to find ways to make domain-specific taks more efficient by manipulating low-level software and exploiting invariances in computations.
     - title: Hardware-software/algorithm Co-design for Emerging workloads
-      items: 
+      items: Current hardware lacks effective support for many emerging workloads. My focus is to construct a true symbiotic loop between software/algorithm implementation, computer architecture, and the hardware basis.
     - title: Systems Reliability, Efficiency & Security
-      items:
+      items: 
 
 - title: Skills
   type: nested_list
