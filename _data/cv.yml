@@ -30,7 +30,7 @@
       items: C/C++, C#, Python, Java, JavaScript, SQL, HTML, CSS.
     - title: Low-level Programming Tools
       items: CUDA, LLVM, NEON/SVE/SVE2 Intrinsics, SSE/AVX/AVX2/AVX512 Intrinsics, RISC-V Vector Instructions
-    - title: Harware Tools
+    - title: Hardware Tools
       items: RTL, GEM5
     - title: Machine Learning Frameworks
       items: Tensorflow, PyTorch, Keras, TVM
