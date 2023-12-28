@@ -33,8 +33,8 @@
   contents:
     - title: Programming Languages
       items: C/C++, C#, Python, Java, JavaScript, SQL, HTML, CSS.
-    - title: Compiler Tools
-      items: LLVM, NEON/SVE/SVE2 Intrinsics, SSE/AVX/AVX2/AVX512 Intrinsics, RISC-V Vector Instructions
+    - title: Low-level Programming Tools
+      items: CUDA, LLVM, NEON/SVE/SVE2 Intrinsics, SSE/AVX/AVX2/AVX512 Intrinsics, RISC-V Vector Instructions
     - title: Harware Tools
       items: RTL, GEM5
     - title: Machine Learning Frameworks
@@ -43,7 +43,6 @@
       items: Pandas, Numpy, Scipy, Matplotlib, Seaborn
     - title: Development Tools
       items: Django, React, Angular, Spring Frameworks, AWS, Azure, Google Cloud, Docker, Venv, GIT, SVN
-
     - title: Operating System
       items: MacOS, Linux, Windows
     - title: Additional Skills
