@@ -18,15 +18,10 @@
   contents:
     - title: Compiler-level Optimization for Domain-specific Acceleration
       items: 
-        - Improving reliability & efficiency of large-scale and ubiquitous software systems.
-        - Program analysis for bug detection and fixing.
     - title: Hardware-software/algorithm Co-design for Emerging workloads
       items: 
-        - Leveraging low-level insights to benefit artificial intelligence systems and users.
     - title: Systems Reliability, Efficiency & Security
       items:
-        - End-user Programming for bridging natural language logic with software logic.
-        - Interactive software systems that ensure security and privacy.
 
 - title: Skills
   type: nested_list
