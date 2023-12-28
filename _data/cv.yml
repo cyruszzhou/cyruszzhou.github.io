@@ -38,7 +38,7 @@
     - title: Harware Tools
       items: RTL, GEM5
     - title: Machine Learning Frameworks
-      items: Tensorflow, PyTorch, Keras, 
+      items: Tensorflow, PyTorch, Keras, TVM
     - title: Data Analysis Tools
       items: Pandas, Numpy, Scipy, Matplotlib, Seaborn
     - title: Web Development Tools & Frameworks
