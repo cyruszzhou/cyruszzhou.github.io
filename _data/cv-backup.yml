@@ -1,0 +1,140 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Cyrus (Zikai) Zhou
+    - name: Date of Birth
+      value: December 29th 2001
+    - name: Languages
+      value: English, Mandarin
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. Computer Science
+      institution: University of Chicago, Chicago, United States
+      year: 2020 - 2024E
+      description:
+        - GPA 3.9/4.0
+        - title: Activities
+          contents:
+            - Student Assistant for Student Summer Research Fellowship Program led by Professor Shan Lu.
+            - Course Designer for Introduction to Software Development.
+            - Participant of Undergraduate Research Symposium.
+            - Teaching Assistant for Introduction to Computer Science II.
+            - Teaching Assistant for Introduction to Computer Systems.
+        - title: Awards
+          contents:
+            - Quad Summer Research Scholar w/ Professor Shan Lu.
+            - Quad School Year Research Scholar w/ Professor Yanjing Li.
+            - Jeff Metcalf Award for Internship @ Moody's.
+            - Dean's Lists.
+    - title: High School Diploma
+      institution: Ningbo Xiaoshi High School, Ningbo, China
+      year: 2017 - 2020
+      description:
+        - Valedictorian.
+        - Rank 1 in all 6 subjects chosen.
+        - IB Diploma.
+        - Varsity Basketball.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant for Professor Shan Lu
+      institution: Department of Computer Science, University of Chicago
+      year: 2022 - 2023
+      description:
+        - title: Analyzing and exposing retry bugs in large-scale distributed systems.
+          contents:
+            - Current ongoing project.
+            - Developed Tempura (Testing Engine for Monitoring and Proving Uncovered Retry Areas), a tool that leverages unit tests to validate and track the retry behavior within large-scale distributed systems (currently supporting Java and C#) through code injection.
+            - Developed Coconut (Code Coverage for iNdividual Unit Tests), a tool that leverages JaCoCo to find the line coverage of each individual unit test, which is intended to be used for finding out useful unit tests to simulate and eventually expose retry bugs in large-scale distributed systems (e.g., hadoop).
+        - title: Detecting and Exposing Idempotency Violations in Serverless Computing.
+          contents:
+            - This project aimed to clarify the retry mechanisms of major serverless providers and present the first analysis of idempotency violations in serverless applications. Specifically, this study exposed the pervasiveness and severity of the problem as well as illustrated the root causes, symptoms, and fixes. It generalized idempotency violation patterns from statically checkable instances in bug study and used these patterns to find more cases.
+            - Collected 100+ Problematic Codebases from Open Source Github Repositories, categorized them by application type, API type, root cause, and symptoms, found general anti-patterns that lead to idempotency violations. 
+            - Deployed 20+ repositories of serverless softwares, tested static checkers for anti-patterns and testing framework for symptom diagnosis.
+        - title: User-centric Development and Debugging of Trigger-Action Programs.
+          contents:
+            - This project aimed to research the first empirical study of users' end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automation. The final paper was accepted (with minor or no modification) by UbiComp/IMWUT.
+            - Designed user study methodology, proposed, and refined the user obstacles mental model.
+            - Tested and refined the software system.
+            - Conducted user study, analyzed the result, and composed the paper.
+
+    - title: Research Assistant for Professor Yanjing Li
+      institution: Department of Computer Science, University of Chicago
+      year: 2022 - 2023
+      description:
+        - title: Architectural Support for Mixed Precision Neural Networks.
+          contents:
+          - Current ongoing project, leading.
+          - Added Heterogenous SIMD support (with precision information stored in the metadata register) to the GEM5 simulator.
+          - Replicated existing mixed-precision schemes on SIMD architecture.
+          - Led and coordinated a team of 5 students.
+        - title: Data Scheduling for Neural Networks on CPUs using SIMD Architecture.
+          contents:
+          - We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunitie using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 2.7x speedup for 8-bit neural networks, and up to 4.8x speed up for binary neural networks, respectively, over the state-of-the-art SIMD implementations of neural networks today.
+          - Proposed the research idea, extended discussion on neural network dataflows, developed a code generation framework for CNNs and Transformers, set up ARM server and, on top of it, the Gem5 simulator, ran experiments, analyzed results, composed the paper.
+
+    - title: Research Assistant for Professor Blase Ur
+      institution: Department of Computer Science, University of Chicago
+      year: 2022 - 2023
+      description:
+      - title: Classifer for Deleting Sensitive Files on Google Drive.
+        contents:
+        - Enhanced the existing sensitive file classifier by integrating multiclass classification, reinforcement learning, and transfer learning for improved recommendation personalization
+        - Developed a new rule-based classifier using ILP and formal reasoning techniques
+        - Devised and conducted user studies for training classifiers more effectively
+        - Deployed preexisting codebases for efficient classification of file sensitivity and making group deletion recommendations
+      - title: User-centric Development and Debugging of Trigger-Action Programs.
+        contents:
+          - This project aimed to research the first empirical study of users' end-to-end TAP debugging process, focusing on obstacles users face in debugging TAPs and how well users ultimately fix incorrect automation. The final paper was accepted (with minor or no modification) by UbiComp/IMWUT.
+          - Designed user study methodology, proposed, and refined the user obstacles mental model.
+          - Tested and refined the software system.
+          - Conducted user study, analyzed the result, and composed the paper.
+
+
+    - title: Teaching Assistant for Professor Borja Sotomayor
+      institution: Department of Computer Science, University of Chicago
+      year: 2023
+      description: Put together setup instructions, graded student coursework, held discussion sections and office hours on software engineering and data structures and algorithms, reviewed assignments, assisted with course projects (~20hrs/week). 
+
+    - title: Teaching Assistant for Professor Haryadi Gunawi
+      institution: Department of Computer Science, University of Chicago
+      year: 2022 - 2023
+      description: Held discussion sections and office hours on computer architecture and operating systems, graded student coursework, content includes bit manipulation, assembly language and compiler, memory hierarchy, exceptions, signals, system calls and processes, threading, etc.. 
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Compiler-level Optimization for Domain-specific Acceleration
+      items: 
+        - Improving reliability & efficiency of large-scale and ubiquitous software systems.
+        - Program analysis for bug detection and fixing.
+    - title: Hardware-software/algorithm Co-design for Emerging workloads
+      items: 
+        - Leveraging low-level insights to benefit artificial intelligence systems and users.
+    - title: Systems Reliability, Efficiency & Security
+      items:
+        - End-user Programming for bridging natural language logic with software logic.
+        - Interactive software systems that ensure security and privacy.
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items: C/C++, C#, Python, Java, JavaScript, SQL, HTML, CSS.
+    - title: Web Development Tools & Frameworks
+      items: Django, React, Angular, Spring Frameworks, AWS, Azure, Google Cloud, Docker, Venv, GIT, SVN
+    - title: Data Handling & Analysis Libraries
+      items: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Tensorflow, PyTorch, Keras
+    - title: Operating System
+      items: MacOS, Linux, Windows
+    - title: Additional Skills
+      items: Team Collaboration & Leadership, Event Organization, Communication
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Weightlifting, Basketball, Hiking, R&B, Traveling, etc.
