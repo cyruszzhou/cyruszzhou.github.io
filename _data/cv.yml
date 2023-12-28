@@ -11,7 +11,7 @@
 - title: Education & Experiences
   type: list
   contents:
-    - For my education and experiences, please click the icon on the top-right side of this page or use <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right">this link</a> to access the PDF file of my CV. Thanks!
+    - For my education and experiences, please click the icon on the top-right side of this page or use <a href="assets/pdf/CV-Cyrus-Zhou.pdf" target="_blank" rel="noopener noreferrer" class="float-right">this link</a> to access the PDF file of my CV. Thanks!
 
 - title: Academic Interests
   type: nested_list
