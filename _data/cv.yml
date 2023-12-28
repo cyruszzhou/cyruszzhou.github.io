@@ -11,7 +11,7 @@
 - title: Education & Experiences
   type: list
   contents:
-    - Please click the icon on the top-right side of this page to access the PDF file of my CV. Thanks!
+    - For my education and experiences, please click the icon on the top-right side of this page to access the PDF file of my CV. Thanks!
 
 - title: Academic Interests
   type: nested_list
@@ -33,10 +33,17 @@
   contents:
     - title: Programming Languages
       items: C/C++, C#, Python, Java, JavaScript, SQL, HTML, CSS.
+    - title: Compiler Tools
+      items: LLVM, NEON/SVE/SVE2 Intrinsics, SSE/AVX/AVX2/AVX512 Intrinsics, RISC-V Vecotr Instructions
+    - title: Harware Tools
+      items: RTL, GEM5
+    - title: Machine Learning Frameworks
+      items: Tensorflow, PyTorch, Keras, 
+    - title: Data Analysis Tools
+      items: Pandas, Numpy, Scipy, Matplotlib, Seaborn
     - title: Web Development Tools & Frameworks
       items: Django, React, Angular, Spring Frameworks, AWS, Azure, Google Cloud, Docker, Venv, GIT, SVN
-    - title: Data Handling & Analysis Libraries
-      items: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Tensorflow, PyTorch, Keras
+
     - title: Operating System
       items: MacOS, Linux, Windows
     - title: Additional Skills
