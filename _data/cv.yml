@@ -31,7 +31,7 @@
     - title: Low-level Programming Tools
       items: CUDA, LLVM, NEON/SVE/SVE2 Intrinsics, SSE/AVX/AVX2/AVX512 Intrinsics, RISC-V Vector Instructions
     - title: Hardware Tools
-      items: RTL, GEM5
+      items: GEM5, RTL (in learning)
     - title: Machine Learning Frameworks
       items: Tensorflow, PyTorch, Keras, TVM
     - title: Data Analysis Tools
